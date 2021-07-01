@@ -1,16 +1,13 @@
 package com.example.fanficrepo
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.fanficrepo.databinding.FanficItemBinding
-import com.example.fanficrepo.model.Fanfic
-import java.util.*
+import com.example.fanficrepo.entity.Fanfic
 
 class FanficListAdapter(val fanficList: List<Fanfic>?) : RecyclerView.Adapter<FanficListAdapter.FanficHolder>() {
 

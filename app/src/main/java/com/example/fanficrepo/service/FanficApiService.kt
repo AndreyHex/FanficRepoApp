@@ -1,7 +1,7 @@
 package com.example.fanficrepo.service
 
-import com.example.fanficrepo.model.Chapter
-import com.example.fanficrepo.model.Fanfic
+import com.example.fanficrepo.entity.Chapter
+import com.example.fanficrepo.entity.Fanfic
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import retrofit2.Call

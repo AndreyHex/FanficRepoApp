@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.fanficrepo.databinding.ChapterItemBinding
-import com.example.fanficrepo.model.Chapter
-import com.example.fanficrepo.model.Fanfic
+import com.example.fanficrepo.entity.Chapter
+import com.example.fanficrepo.entity.Fanfic
 
 class ChapterListAdapter(val fanfic: Fanfic) : RecyclerView.Adapter<ChapterListAdapter.ChapterHolder>() {
 

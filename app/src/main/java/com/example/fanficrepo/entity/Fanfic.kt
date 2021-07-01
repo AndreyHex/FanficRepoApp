@@ -1,5 +1,6 @@
-package com.example.fanficrepo.model
+package com.example.fanficrepo.entity
 
+import com.example.fanficrepo.entity.Chapter
 import com.squareup.moshi.Json
 
 data class Fanfic(

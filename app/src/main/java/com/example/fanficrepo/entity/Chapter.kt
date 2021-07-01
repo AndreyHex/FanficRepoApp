@@ -1,4 +1,4 @@
-package com.example.fanficrepo.model
+package com.example.fanficrepo.entity
 
 data class Chapter(
     val number: Int, val title: String, val text: String?)
